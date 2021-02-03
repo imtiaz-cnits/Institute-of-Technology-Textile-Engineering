@@ -1,0 +1,391 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Siyam Rupali', sans-serif;
+}
+body{
+  background: #F4D03F;
+  padding: 0 10px;
+}
+.wrapper{
+  max-width: 900px;
+  width: 200%;
+  background-image: url(img/Untitled-2.jpg);
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 20px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper .title{
+  font-size: 29px;
+  font-weight: 1000;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: brown;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h4{
+  text-align: right;
+  border: solid;
+  border-color: darkgray;
+  float: right;
+  border-radius: 8px;
+  padding: 3px 0px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.subtitle{
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0px 180px;
+  text-align: center;
+}
+
+.subtitle1{
+  font-size: 18px;
+  color: brown;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0px 150px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.subtitle2{
+  font-size: 18px;
+  color: brown;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.subtitle3{
+  top: -17px;
+  position: relative;
+  line-height: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 22px;
+  text-align: right;
+}
+
+.subtitle4{
+  font-size: 18px;
+  color: brown;
+  font-weight: 1000;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.subtitle6{
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.subtitle5{
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.subtitle7{
+  height: 40px;
+  justify-content: center;
+  font-size: 18px;
+  color: brown;
+  font-weight: 1000;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  padding: 10px -50px 15px;
+  text-align: center;
+  border: solid;
+  border-radius: 8px;
+  border-color: #fec107;
+}
+
+.subtitle8{
+  font-size: 14px;
+  color:black;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.subtitle9{
+  font-size: 17px;
+  color: black;
+  font-weight: 1000;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.subtitle10{
+  font-size: 18px;
+  color: brown;
+  font-weight: 1000;
+}
+
+.civil{
+  text-align: right;
+}
+.wrapper .form{
+  width: 100%;
+  padding: 10px 90px;
+}
+
+.wrapper .form .inputfield{
+  font-size: 13px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.regno{
+  position: relative;
+  text-align: center;
+}
+
+.gpa{
+  position: relative;
+  text-align: center;
+}
+
+.divis{
+  position: relative;
+  text-align: center;
+}
+.trnno{
+  position: inherit;
+  text-align: left;
+}
+  
+
+.wrapper .form .inputfield label{
+  width: 300px;
+  color: black;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 60%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .input1,
+.wrapper .form .inputfield .textarea{
+  width: 25%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-left: -230px;
+  margin-top: 10px;
+}
+
+
+.wrapper .form .inputfield .input2,
+.wrapper .form .inputfield .textarea{
+  width: 25%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-left: -70px;
+}
+
+.wrapper .form .inputfield .input3,
+.wrapper .form .inputfield .textarea{
+  width: 25%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-left: -70px;
+}
+
+.wrapper .form .inputfield .input4,
+.wrapper .form .inputfield .textarea{
+  width: 25%;
+  align-items: right; 
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-right: -100px;
+  margin-left: 100px;
+}
+
+.wrapper .form .inputfield .pic{
+  color: brown;
+}
+
+.wrapper .form .inputfield .input5,
+.wrapper .form .inputfield .textarea{
+  width: 60%;
+  outline: none;
+  border: 1px solid #fec107;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+
+}
+
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 25%;
+  height: 32px;
+  padding: 0px 0px -50px ;
+  align-content: stretch;
+  margin-left: -230px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+.radio-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: -10px;
+  width:100%;
+  outline: none;
+  padding-top: 0px;
+  padding-left: 200px;
+
+  transition: all 0.3s ease;
+  margin-left: -50px;
+
+}
+
+.radio-group1{
+  display:inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width:100%;
+  outline: none;
+  padding: 0px 0px 0px 95px;
+  transition: all 0.3s ease;
+  margin-left: 70px;
+  word-spacing: 10px;
+
+}
+
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid #fec107;
+}
+
+
+.wrapper .form .inputfield .btn{
+  font-family: sans-serif;
+  width: 40%;
+  padding: 8px 10px;
+  font-size: 22px;
+  font-weight: 1000;
+  border: 0px;
+  background:  #fec107;
+  color: maroon;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+    margin-left: 215px;
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background: #ffd658;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
